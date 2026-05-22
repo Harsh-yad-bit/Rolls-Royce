@@ -1,0 +1,546 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999996362" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="259.32035628171394" scrolly="243.9378186606753" scale="0.3138619254901379">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="hdkYSV2-aB:M@(C,aI!u" x="-510" y="-770">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="lM@F~H8_C(wY!(q~Tyvr">
+          <field name="TEXT">body1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="EV)agvDR)(6t%AjR@($/">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="1]@:W8,AN*,[F/^}/_zN">
+              <field name="FIELDNAME">body1</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">rrghost_body_rrghost_paint_b_0</field>
+            </shadow>
+            <block type="groupList" id="y3PM;d|K|3Nw19}L*IB/">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="4b*%A51/aaG?^pQ.nv0!" x="110" y="-770">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="8Hv1U:6VZIWG2ou;V@P;">
+          <field name="TEXT">bonnet1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="n$bc/s3A*ft(ULx3^|O:">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="{hN{jeVA!YDON{s(xhCR">
+              <field name="FIELDNAME">bonnet1</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="!y@*Y):_`RJG_8VLCHZh">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="bO!mtI2FVKb[@h+pa6BG" x="-510" y="-590">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="+rVb[I4A0OP^{k#CI9N|">
+          <field name="TEXT">body2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="D$MCoS6x#H@?4O/$7;Sv">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="Wp$0z;29q|vkn@nl+_y!">
+              <field name="FIELDNAME">body2</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="]`gDVz)pYn-*;W6vnjDT">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="=NWXamyD2LjS~b1(s3qF" x="110" y="-590">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="(0[[`E/IFMI?F:3Fuomw">
+          <field name="TEXT">bonnet2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="*s|?#Y38RS1bqh/zy-sP">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="P3p`/6+vDO;+MvexwRsm">
+              <field name="FIELDNAME">bonnet2</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="zh-XT84d)(27o}E=IO#!">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="2IB5qkcYWk@2;MkzVKFt" x="-510" y="-410">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="xT)ZK{%Our+C:lxs7lCV">
+          <field name="TEXT">body3</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="q!T/,nLOAtwddAO~-v{d">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id=".]g%GtgG+Az@eBvE~J;f">
+              <field name="FIELDNAME">body3</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="km/pVdb,Vf5/ku=agU.(">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id=",E@tl_sHZ8w1[J:|E03F" x="110" y="-430">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="V%-lcKJt}jE4!ExS7t8K">
+          <field name="TEXT">bonnet3</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="2r*b$=mV);Mw5h%|aTEo">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="Ei$lqKbp|4Q:t(MAb*=$">
+              <field name="FIELDNAME">bonnet3</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="kl@gglM:Vcwj,3r{0@u?">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Pz#izWsXlxh#n~7P;3g@" x="-510" y="-270">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="v}_8,`tVaD}CIab=%fJ+">
+          <field name="TEXT">body5</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="+Y?xZ0l~9f{i@3Rlgtg`">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="1}Gsvq#l,GSP`(Qmd^O.">
+              <field name="FIELDNAME">body5</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="A!MgJ2UEJaoLD?mJ#h,P">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="ZNc#r4.fvYB+ur?BKosp" x="-510" y="-150">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="0Dg=ZJo{,2V#*drr0uH:">
+          <field name="TEXT">body4</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="k=Mx`h[wG6%@4oGA,+gP">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="YMXaygoy{S:r_}bmQHPy">
+              <field name="FIELDNAME">body4</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="^!BVF1J`Nao2E5}w1s,+">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Zo`Y8$D5J%`tmy0m!MDY" x="90" y="-150">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="eWy_Mej.A{mQS0)PgFT/">
+          <field name="TEXT">bonnet4</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="AHJ{z#hJ7ZX{bK^I[~F.">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="$L{@=yWu0MFLgG)PX{K0">
+              <field name="FIELDNAME">bonnet4</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="vaTk@37c^}B=;=#dw7}S">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="PMQq5C9C2t7p_WQ{Y%u@" x="-470" y="-10">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="#8xT@2~u]iv8gMHV(,Ni">
+          <field name="TEXT">body7</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="361]c3F`zRqCsjs+ir=,">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="c4n.5CX?~C?G,^jP[vU4">
+              <field name="FIELDNAME">body7</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id=",t}6Xox]`P6c~!A|WDQ|">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="$f+~[Eqwy82%Tgu?s`Ov" x="290" y="50">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="a#kFfqhLHYAfko*-]a`.">
+          <field name="TEXT">bonnet5</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=")^{fQ74Z%[^Z1x6gh$VL">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id=":wZP4S!KStsDW(U^5.%R">
+              <field name="FIELDNAME">bonnet5</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="~2/Zp0Ck01|mIjLFc`+,">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="?@3Qe{:gL=a9a3.^V=L3" x="-470" y="130">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="O,QE8wWXsGpAc*|?hGZl">
+          <field name="TEXT">body6</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=",j$=Sp|p)vH9bl;|%(tu">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="J9QUY8A`;[LbbID/:KQZ">
+              <field name="FIELDNAME">body6</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="~dvGR:=L7/EA!RrE4lRG">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="h)UkS(]=G~xjOH_]#nfd" x="70" y="130">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="of,#^0gOOUdv7_Q7-dwN">
+          <field name="TEXT">bonnet6</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=".Z7eR[q+CxdjA2]-NRR.">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="CH,h?cT|}?C(G2,[POFC">
+              <field name="FIELDNAME">bonnet6</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="NL3x2K6+~Xkj5S[R-dtR">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="G5S!6T?s}l=?5i66Gu0i" x="210" y="250">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="rzcEAy;if/~f?!0(-Eb*">
+          <field name="TEXT">bonnet8</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="|^lqh}`Pl(u9O16w+]:|">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="~K31Ud3Qe`{Y3C,Ej*/c">
+              <field name="FIELDNAME">bonnet8</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id=".C#CY-orO~+bmpPgfsn~">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="/rH!r-UIb]L$8H_9xY}t" x="-490" y="290">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="5xz/Qhc8btXe:MW$0rGl">
+          <field name="TEXT">body8</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="(bL#.ZJCyi[[oZ1ahOFA">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="ZFqAtviyyzaxn^%JOpv[">
+              <field name="FIELDNAME">body8</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="p_tO|WrIauVo$0_u4:.j">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="5b${_[3R5:x_VQX`#R.A" x="-510" y="410">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="Qq+47GBPbMJzb$RBCnAF">
+          <field name="TEXT">body9</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="V)~=:!#k79nV0L[uRuO#">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id=".,U-LS_gecOhEYW4=2K:">
+              <field name="FIELDNAME">body9</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="mQ[a[nd7-IPLm.%He#)^">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="U3L=QoP{8AXb4meq]q`P" x="50" y="390">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="J(ZzdBb(Pt7k_g6vQzaS">
+          <field name="TEXT">bonnet9</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="+t%2dwA3Rxg*~tk6}_W@">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="P85YY/1[f$!(uc}$HQz9">
+              <field name="FIELDNAME">bonnet9</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="gW_-%ktQD_B^h]6^Zo/?">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="jJ7LvE04U/YbW{nq@0g[" x="-510" y="550">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="Nq@A6PM_d{f`]ruSK}+X">
+          <field name="TEXT">body10</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="KY{?;sXwOi_BFh5I-v;|">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="%+C.`Tvdq$nlt)Ckc-q-">
+              <field name="FIELDNAME">body10</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="X,!/YO.fT=LBy-r`u%4Z">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="C4,a%.r,uEaVA(}q4dob" x="110" y="530">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="7FS|C@|tj*r?}Kf1v7j2">
+          <field name="TEXT">bonnet10</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="jebpbl!mdLyC7G0fzM@+">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="Y#IJ$QklhfX{[xdU)WDU">
+              <field name="FIELDNAME">bonnet10</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="*E%pNAOhUCja5.3w[#q`">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="[:MF.iIrpSm1Vl:]M+/e" x="110" y="670">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="|veTfP4Ppu#P!y/j*UaB">
+          <field name="TEXT">bonnet7</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="ue9@}huiVs,}x=Pbn:JL">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="-e7rh.gTAVt*h)kCiLI$">
+              <field name="FIELDNAME">bonnet7</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="Ho38IZDAZE;cK7uy3=GD">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="960.302463665977" viewport-y="-13.258153971284628" viewport-w="316.4" viewport-h="311" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

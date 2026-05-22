@@ -1,0 +1,1597 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999996362" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="628.0079026060155" scrolly="596.0423280131365" scale="0.6525618086633733">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="hdkYSV2-aB:M@(C,aI!u" x="-510" y="-770">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="lM@F~H8_C(wY!(q~Tyvr">
+          <field name="TEXT">body1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="EV)agvDR)(6t%AjR@($/">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="1]@:W8,AN*,[F/^}/_zN">
+              <field name="FIELDNAME">body1</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">rrghost_body_rrghost_paint_b_0</field>
+            </shadow>
+            <block type="groupList" id="y3PM;d|K|3Nw19}L*IB/">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="4b*%A51/aaG?^pQ.nv0!" x="110" y="-770">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="8Hv1U:6VZIWG2ou;V@P;">
+          <field name="TEXT">bonnet1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="n$bc/s3A*ft(ULx3^|O:">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="{hN{jeVA!YDON{s(xhCR">
+              <field name="FIELDNAME">bonnet1</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="!y@*Y):_`RJG_8VLCHZh">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="4fCgzQCa9y@MBFM+t@L1">
+              <value name="CAMERA">
+                <shadow type="objectList" id="msWbP+~bz@rJ`+QA{N5(">
+                  <field name="FIELDNAME">bonnet cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="getCameraDirection" id="*QaG^40%**t7g^q`RegP" x="-530" y="-690">
+      <field name="MOUSE_TOUCH">TRUE</field>
+      <field name="INVERTED">FALSE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="bO!mtI2FVKb[@h+pa6BG" x="-510" y="-590">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="+rVb[I4A0OP^{k#CI9N|">
+          <field name="TEXT">body2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setActiveCamera" id="WXoGqDiDfV=V)N2}9Zhk">
+          <value name="CAMERA">
+            <shadow type="objectList" id="xgE#%*ZF`oGbw[RVy!89">
+              <field name="FIELDNAME">body cam</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="assignMaterial" id="D$MCoS6x#H@?4O/$7;Sv">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+              <value name="VALUE2">
+                <shadow type="materialList" id="Wp$0z;29q|vkn@nl+_y!">
+                  <field name="FIELDNAME">body2</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="groupList" id="]`gDVz)pYn-*;W6vnjDT">
+                  <field name="FIELDNAME">body</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="=NWXamyD2LjS~b1(s3qF" x="110" y="-590">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="(0[[`E/IFMI?F:3Fuomw">
+          <field name="TEXT">bonnet2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="*s|?#Y38RS1bqh/zy-sP">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="P3p`/6+vDO;+MvexwRsm">
+              <field name="FIELDNAME">bonnet2</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="zh-XT84d)(27o}E=IO#!">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="(nLBDnv8fa5g#zvuX4pS">
+              <value name="CAMERA">
+                <shadow type="objectList" id="4(7Oi_2N!C04t5,$z{+!">
+                  <field name="FIELDNAME">bonnet cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="623365J]W@9wnWzz4mL6" x="1430" y="-610">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="/(IGpj@Hb|tV;?So.7,c">
+          <field name="TEXT">grill1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="H{8Ei;O)ud!0x:%:n_~3">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="cLB,]|z46}ioU3De|lef">
+              <field name="FIELDNAME">grill1</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="f/H9o]oZ$V7[v*1-$x6@">
+              <field name="FIELDNAME">grill</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="sfp3.nFG4C?gM)Z:$OP9" x="770" y="-570">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="KmOLi,+AROWS}S}UHP-c">
+          <field name="TEXT">interior1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="G7uGZ(c9ksaMv~dx)E:~">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="eR{q2zS!lNG/f@Wnkn,f">
+              <field name="FIELDNAME">int1</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="Sqf%a3/qh,pc{[O+={!{">
+              <field name="FIELDNAME">interior</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="vPYtg]1))C!tUY[Q9U5l" x="1990" y="-610">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="L{F6CN$/QIQgd2C1j$pk">
+          <field name="TEXT">fld</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="HpK[,#h@,T5x_U5dH:Oh">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="pe!{f}L5gHnx5H%~Q}xq">
+              <field name="FIELDNAME">rrghost_door_FL_rrghost_leatherblue_0</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="hU+.Ag`u[H_X]?PwR9bQ">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="_?KBc_@M5/c7fqm1|]MV">
+                  <field name="FIELDNAME">fd</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="k]v,v%.Rvn`n}KY[U_rR">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="eL.pg`novB),*j2zr5RS">
+                      <field name="FIELDNAME">fd.001</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="=1PxjG}t~??amH!2ZEK:">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="XckeM{MkY.^TpfiDf=R0">
+                          <field name="FIELDNAME">fd.008</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="playAnimationAdv" id="(zF3#sF=S+bda2m^A!K7">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                          <field name="REVERSED">FALSE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <shadow type="animationList" id="]j%uVz^w[qEG327YB5[z">
+                              <field name="FIELDNAME">fd.007</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="playAnimationAdv" id="~ub.CTU:YirhP1eoi9K}">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                              <field name="REVERSED">FALSE</field>
+                              <field name="LOOP">LoopOnce</field>
+                              <value name="VALUE">
+                                <shadow type="animationList" id="8qc!t$oo_*MCYY4?fUjg">
+                                  <field name="FIELDNAME">fd.006</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="playAnimationAdv" id="h5qD%Zu1%QvB;)S`8U`B">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                  <field name="REVERSED">FALSE</field>
+                                  <field name="LOOP">LoopOnce</field>
+                                  <value name="VALUE">
+                                    <shadow type="animationList" id="!.^Wh#^/~V8H,m/S3TKn">
+                                      <field name="FIELDNAME">fd.005</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="playAnimationAdv" id="e*YU:?1EJ{Q7N5%;sRXg">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                      <field name="REVERSED">FALSE</field>
+                                      <field name="LOOP">LoopOnce</field>
+                                      <value name="VALUE">
+                                        <shadow type="animationList" id="m$n6Z)Eto+TnIlPy!s7;">
+                                          <field name="FIELDNAME">fd.004</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="playAnimationAdv" id="/+}n{%:Dg6~wH1M`I[vk">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                          <field name="REVERSED">FALSE</field>
+                                          <field name="LOOP">LoopOnce</field>
+                                          <value name="VALUE">
+                                            <shadow type="animationList" id="Zw~1-?a}LE]{#h:dYoFw">
+                                              <field name="FIELDNAME">fd.003</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="playAnimationAdv" id="bK-q+c%LI`?tU-J7H.%j">
+                                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                              <field name="REVERSED">FALSE</field>
+                                              <field name="LOOP">LoopOnce</field>
+                                              <value name="VALUE">
+                                                <shadow type="animationList" id="O/B]eE,B-h%+eHdR?nPD">
+                                                  <field name="FIELDNAME">fd.002</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="2IB5qkcYWk@2;MkzVKFt" x="-510" y="-410">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="xT)ZK{%Our+C:lxs7lCV">
+          <field name="TEXT">body3</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="q!T/,nLOAtwddAO~-v{d">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id=".]g%GtgG+Az@eBvE~J;f">
+              <field name="FIELDNAME">body3</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="km/pVdb,Vf5/ku=agU.(">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="0rNb(h]4Fhf.0Ln~1g#p">
+              <value name="CAMERA">
+                <shadow type="objectList" id="7(*vdnYATe%TzkCq-KrR">
+                  <field name="FIELDNAME">body cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id=",E@tl_sHZ8w1[J:|E03F" x="110" y="-430">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="V%-lcKJt}jE4!ExS7t8K">
+          <field name="TEXT">bonnet3</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="2r*b$=mV);Mw5h%|aTEo">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="Ei$lqKbp|4Q:t(MAb*=$">
+              <field name="FIELDNAME">bonnet3</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="kl@gglM:Vcwj,3r{0@u?">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="f$#ovuYB$@}L#]E*.hgc">
+              <value name="CAMERA">
+                <shadow type="objectList" id="F_S`h/eg%sZrAN]b^_Jh">
+                  <field name="FIELDNAME">bonnet cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="kC;Jd]`,)r/izkKvV$=g" x="890" y="-450">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="`CwM[l:IVGnk80}S]f8~">
+          <field name="TEXT">interior2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="wf^gmbVXgahyp$pJ$WOB">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="c2jHeVYVMdF5AJb-~|{Q">
+              <field name="FIELDNAME">int2</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="YV`Yut{-$)?fj(Gpt@Kh">
+              <field name="FIELDNAME">interior</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="B1WoR$nP`{^;M_kt;9AF" x="1530" y="-470">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="qmn~7N_yzsg?JDPUG[7k">
+          <field name="TEXT">grill2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="y2IxG;wp2bm}-VbtZyp6">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="kb|6c,.rZ%08%VL6P8Su">
+              <field name="FIELDNAME">grill2</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="):BO|C80q~_9Ax=+P?6G">
+              <field name="FIELDNAME">grill</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Pz#izWsXlxh#n~7P;3g@" x="-510" y="-270">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="v}_8,`tVaD}CIab=%fJ+">
+          <field name="TEXT">body5</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setActiveCamera" id="$Hw!xGe:!gDjhy`GZ:t/">
+          <value name="CAMERA">
+            <shadow type="objectList" id="d{^bA43:?Zzd,~3yCYpX">
+              <field name="FIELDNAME">body cam</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="assignMaterial" id="+Y?xZ0l~9f{i@3Rlgtg`">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+              <value name="VALUE2">
+                <shadow type="materialList" id="1}Gsvq#l,GSP`(Qmd^O.">
+                  <field name="FIELDNAME">body5</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="groupList" id="A!MgJ2UEJaoLD?mJ#h,P">
+                  <field name="FIELDNAME">body</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="9Lana?M%drv)47vC:zVn" x="730" y="-270">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="TiFat[.K@EjNLQY~r1(M">
+          <field name="TEXT">interior6</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="Ud}qz[+Rzt-YL,93c?Wl">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="|P%1M{;,h[bPe9d3at]y">
+              <field name="FIELDNAME">int6</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="]I[fN#m.Xmd}UIq{cq6c">
+              <field name="FIELDNAME">interior</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="9[GkH~{fJd#9?=S+:zov" x="1450" y="-270">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="?s1sAkQ[Af%=Wt),;qAk">
+          <field name="TEXT">grill3</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="ATZ0zMy?]y_2#a{|^EQo">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="E$YDv/s^wvrDKYaw-}yw">
+              <field name="FIELDNAME">grill3</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="uhpLOhDy#x/}w}$!Y;|y">
+              <field name="FIELDNAME">grill</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="ZNc#r4.fvYB+ur?BKosp" x="-510" y="-150">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="0Dg=ZJo{,2V#*drr0uH:">
+          <field name="TEXT">body4</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setActiveCamera" id="0E~|DEe]7/@,L/kW.bu{">
+          <value name="CAMERA">
+            <shadow type="objectList" id="/Z#o~CmSogZP.ysM!OE%">
+              <field name="FIELDNAME">body cam</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="assignMaterial" id="k=Mx`h[wG6%@4oGA,+gP">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+              <value name="VALUE2">
+                <shadow type="materialList" id="YMXaygoy{S:r_}bmQHPy">
+                  <field name="FIELDNAME">body4</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="groupList" id="^!BVF1J`Nao2E5}w1s,+">
+                  <field name="FIELDNAME">body</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Zo`Y8$D5J%`tmy0m!MDY" x="90" y="-150">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="eWy_Mej.A{mQS0)PgFT/">
+          <field name="TEXT">bonnet4</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="AHJ{z#hJ7ZX{bK^I[~F.">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="$L{@=yWu0MFLgG)PX{K0">
+              <field name="FIELDNAME">bonnet4</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="vaTk@37c^}B=;=#dw7}S">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="kXP-4a{-Mdz2C?^lwX}.">
+              <value name="CAMERA">
+                <shadow type="objectList" id="8UG|P1?BXGtY{F*2t4BV">
+                  <field name="FIELDNAME">bonnet cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="3T9xK)@=4wD%DqfY0)hT" x="830" y="-130">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="~-b1rlbMI:CCnf`4|T[-">
+          <field name="TEXT">interior3</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="/ghhCA@|4xr3[zDQL_Q3">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="0]oECf[k_NB|VT^0204P">
+              <field name="FIELDNAME">int3</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="uyl;IcFpyo)3Xb@BN]|_">
+              <field name="FIELDNAME">interior</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Ak8ulMm$K,]TzJuj2p5X" x="1430" y="-130">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="1=_/@K;O=Fj%npRU~*NF">
+          <field name="TEXT">frd</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="+~=q:%~!Fwm^7?D_gYCz">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="NR3E:q0gyUtXTY2;BQ]#">
+              <field name="FIELDNAME">rrghost_door_FR_rrghost_leatherblue_0</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id=";=T-qrQ3%sipqfLr?29)">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="eA`}|cWE8t(-AsS*zc!h">
+                  <field name="FIELDNAME">rd.010</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="J4-?(72BWI*l%sQg3WBN">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="PBhSdDYQ#P[ow8z_.p1^">
+                      <field name="FIELDNAME">rd</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="_#mMX4l:R9Lc+4:R^y9A">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="*o4hd8.PY{%?il|Mtre0">
+                          <field name="FIELDNAME">rd.009</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="playAnimationAdv" id="w.#(k4h.3P2jOeL=9:MF">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                          <field name="REVERSED">FALSE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <shadow type="animationList" id="y/{u@mIOFjQ[$AoJcMA=">
+                              <field name="FIELDNAME">rd.007</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="playAnimationAdv" id="$wXvJMkHm?3;F+UEvV,F">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                              <field name="REVERSED">FALSE</field>
+                              <field name="LOOP">LoopOnce</field>
+                              <value name="VALUE">
+                                <shadow type="animationList" id="whEV@-sm?Ob/rX+kw@Pe">
+                                  <field name="FIELDNAME">rd.006</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="playAnimationAdv" id="i}vVt*HW3nb].hPG~c@M">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                  <field name="REVERSED">FALSE</field>
+                                  <field name="LOOP">LoopOnce</field>
+                                  <value name="VALUE">
+                                    <shadow type="animationList" id="34YV3MH|h-m~Gc:*4P`;">
+                                      <field name="FIELDNAME">rd.001</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="playAnimationAdv" id="zdSieJjDIt[)|oqE{W@J">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                      <field name="REVERSED">FALSE</field>
+                                      <field name="LOOP">LoopOnce</field>
+                                      <value name="VALUE">
+                                        <shadow type="animationList" id="mTJ~6B/g!.S`fC*Ym~;1">
+                                          <field name="FIELDNAME">rd.003</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="playAnimationAdv" id="bun6;PkOLXN!-xwX4$T7">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                          <field name="REVERSED">FALSE</field>
+                                          <field name="LOOP">LoopOnce</field>
+                                          <value name="VALUE">
+                                            <shadow type="animationList" id=".4j+fkfaZ*{qz7}:hxs+">
+                                              <field name="FIELDNAME">rd.002</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="playAnimationAdv" id="Bhyo`t+D[*uNV2hTW;H0">
+                                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                              <field name="REVERSED">FALSE</field>
+                                              <field name="LOOP">LoopOnce</field>
+                                              <value name="VALUE">
+                                                <shadow type="animationList" id="(_LHx1{:.2Y]7#c5kOC|">
+                                                  <field name="FIELDNAME">rd.004</field>
+                                                </shadow>
+                                              </value>
+                                              <next>
+                                                <block type="playAnimationAdv" id="|ryXS9!C2M5`4Zuvbr2N">
+                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                                  <field name="REVERSED">FALSE</field>
+                                                  <field name="LOOP">LoopOnce</field>
+                                                  <value name="VALUE">
+                                                    <shadow type="animationList" id="}b^u`GdacEscG[0[UB4^">
+                                                      <field name="FIELDNAME">rd.005</field>
+                                                    </shadow>
+                                                  </value>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="PMQq5C9C2t7p_WQ{Y%u@" x="-470" y="-10">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="#8xT@2~u]iv8gMHV(,Ni">
+          <field name="TEXT">body7</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="361]c3F`zRqCsjs+ir=,">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="c4n.5CX?~C?G,^jP[vU4">
+              <field name="FIELDNAME">body7</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id=",t}6Xox]`P6c~!A|WDQ|">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id=".#w$Gs7Sj1`Ynya{|frs">
+              <value name="CAMERA">
+                <shadow type="objectList" id="vQb_mwp.~X7BR(Hb@%a3">
+                  <field name="FIELDNAME">body cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="R30mmwz:6}QxOs6S~c4P" x="2030" y="-130">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="|:Y]d?j)|;h#7hQd=)4B">
+          <field name="TEXT">brd</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="9X8u=|HnL+8Mw3pjCR!z">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="cN,H/raL-Ge.gA$;SGP~">
+              <field name="FIELDNAME">br.001</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="P~(VR-cs[dfjzqow+hQz">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="_+9iY4ZX(W7oXM7G4{1O">
+                  <field name="FIELDNAME">br</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="j*DrN77(Wlu[Q(qG-wFd">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="JL+FFW%W!$1w!;qgA5h$">
+                      <field name="FIELDNAME">br.002</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="(A|_M_-YPo$PfID]JKX+">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="tW;aK.yX5?DqehQ/`Xqr">
+                          <field name="FIELDNAME">br.003</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="playAnimationAdv" id="llxr~o(2m7,5JT]HZ%1O">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                          <field name="REVERSED">FALSE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <shadow type="animationList" id="iN88cls;W7@MdYN[ez6J">
+                              <field name="FIELDNAME">br.004</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="playAnimationAdv" id="nr|UejvOC1|DiJ;=Ojk6">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                              <field name="REVERSED">FALSE</field>
+                              <field name="LOOP">LoopOnce</field>
+                              <value name="VALUE">
+                                <shadow type="animationList" id="lt0kX)~tno!2=F]t%z%I">
+                                  <field name="FIELDNAME">br.006</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="playAnimationAdv" id="+{AB%m4o8Mfj({IODL1|">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                  <field name="REVERSED">FALSE</field>
+                                  <field name="LOOP">LoopOnce</field>
+                                  <value name="VALUE">
+                                    <shadow type="animationList" id="?grM9rnrw/cNARinRXz^">
+                                      <field name="FIELDNAME">br.005</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="playAnimationAdv" id="h_l-tW]Tn2a4tK/z0zkr">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                      <field name="REVERSED">FALSE</field>
+                                      <field name="LOOP">LoopOnce</field>
+                                      <value name="VALUE">
+                                        <shadow type="animationList" id="Qm5sy@vhezmgjDb`tXGR">
+                                          <field name="FIELDNAME">br.007</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="playAnimationAdv" id="pFwd%QOTm_$)Y+BwbofR">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                          <field name="REVERSED">FALSE</field>
+                                          <field name="LOOP">LoopOnce</field>
+                                          <value name="VALUE">
+                                            <shadow type="animationList" id=",9GN5Qh%6Ru(LI.K}074">
+                                              <field name="FIELDNAME">br.008</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="playAnimationAdv" id="D3dxq[+tCJTdiKs8+AMd">
+                                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                              <field name="REVERSED">FALSE</field>
+                                              <field name="LOOP">LoopOnce</field>
+                                              <value name="VALUE">
+                                                <shadow type="animationList" id="kl~s?8GJ(;K,A88c7Whv">
+                                                  <field name="FIELDNAME">rrghost_door_RR_rrghost_leatherblue_0</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="cUk#P2j!h!LsK10wpnf2" x="2530" y="-130">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="`k?]S,acB`7J1;6t)M6v">
+          <field name="TEXT">bon</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="1xlT+y_gQx/T~ZHWa3ds">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="[%rkX|Mwbh;fXrMNwOIG">
+              <field name="FIELDNAME">bonnet</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="lDix3xop=w+kfF/DhZIC" x="645" y="22">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="H1AOGR)WgI!$mn]vx{yt">
+          <field name="TEXT">interior4</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="1ckoD0K]]w|WT8yslV3G">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="qOH0@{d@rOe2(jen^fPE">
+              <field name="FIELDNAME">int4</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="442EM#!%7.:y=GeO6.FG">
+              <field name="FIELDNAME">interior</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="?@3Qe{:gL=a9a3.^V=L3" x="-470" y="130">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="O,QE8wWXsGpAc*|?hGZl">
+          <field name="TEXT">body6</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=",j$=Sp|p)vH9bl;|%(tu">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="J9QUY8A`;[LbbID/:KQZ">
+              <field name="FIELDNAME">body6</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="~dvGR:=L7/EA!RrE4lRG">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="{`TH$Fp0Mk00;iqk$WWT">
+              <value name="CAMERA">
+                <shadow type="objectList" id=")gz*`B5Upe=+YSF6tt4[">
+                  <field name="FIELDNAME">body cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="h)UkS(]=G~xjOH_]#nfd" x="70" y="130">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="of,#^0gOOUdv7_Q7-dwN">
+          <field name="TEXT">bonnet6</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=".Z7eR[q+CxdjA2]-NRR.">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="CH,h?cT|}?C(G2,[POFC">
+              <field name="FIELDNAME">bonnet6</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="NL3x2K6+~Xkj5S[R-dtR">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="7--RZT*S4rV^s2=bMzfQ">
+              <value name="CAMERA">
+                <shadow type="objectList" id="S|Wo~q44fFgxY2@a1cm.">
+                  <field name="FIELDNAME">bonnet cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="LCLNlB%]B}x~v5gBj$IQ" x="950" y="90">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="zK?}T_O$,iM=4qkhcQ_d">
+          <field name="TEXT">interior5</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="+?I@w-8qI49mbp{8Jt#.">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="#9y]d,bEC`?Mvi.;n7Qp">
+              <field name="FIELDNAME">int5</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="sLKf|trYW(2G4^wLUK6z">
+              <field name="FIELDNAME">interior</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="]Aug|!v.kojbVUtL:i@i" x="2570" y="90">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="Zw6~4Et$Gwq,5ht@LMv7">
+          <field name="TEXT">trk</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="r/LDRvY*:D1sszxN,-(K">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="HhIXE{:L`sG|XY[Fe-yR">
+              <field name="FIELDNAME">diggi</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="v)C?tRb([LNUK7]X+CV}">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="a]w{j$6[%bnfjC2p|@_1">
+                  <field name="FIELDNAME">diggi.001</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="GVd0Vwb!QaFf%t^v~$tW">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="wHqK#w[JDd6w`eqxKS.w">
+                      <field name="FIELDNAME">diggi.002</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="`)!Z#v1Cmg4!a7y3w+m_">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="?XB(xu(PEaRg0fjat:H6">
+                          <field name="FIELDNAME">diggi.003</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="playAnimationAdv" id="D7=Z@5IXWH-j@v1|Zmkd">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                          <field name="REVERSED">FALSE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <shadow type="animationList" id="F;yk3-A-vAcf,+`yYJqD">
+                              <field name="FIELDNAME">diggi.004</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="G5S!6T?s}l=?5i66Gu0i" x="210" y="250">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="rzcEAy;if/~f?!0(-Eb*">
+          <field name="TEXT">bonnet8</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="|^lqh}`Pl(u9O16w+]:|">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="~K31Ud3Qe`{Y3C,Ej*/c">
+              <field name="FIELDNAME">bonnet8</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id=".C#CY-orO~+bmpPgfsn~">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="/rH!r-UIb]L$8H_9xY}t" x="-490" y="290">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="5xz/Qhc8btXe:MW$0rGl">
+          <field name="TEXT">body8</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="(bL#.ZJCyi[[oZ1ahOFA">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="ZFqAtviyyzaxn^%JOpv[">
+              <field name="FIELDNAME">body8</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="p_tO|WrIauVo$0_u4:.j">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="_~Ep;(+vGMt|e3%1|-EW">
+              <value name="CAMERA">
+                <shadow type="objectList" id="GuDNHcW*3oipW{E3}$fj">
+                  <field name="FIELDNAME">body cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="$f+~[Eqwy82%Tgu?s`Ov" x="670" y="330">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="a#kFfqhLHYAfko*-]a`.">
+          <field name="TEXT">bonnet5</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=")^{fQ74Z%[^Z1x6gh$VL">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id=":wZP4S!KStsDW(U^5.%R">
+              <field name="FIELDNAME">bonnet5</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="~2/Zp0Ck01|mIjLFc`+,">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="5b${_[3R5:x_VQX`#R.A" x="-510" y="410">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="Qq+47GBPbMJzb$RBCnAF">
+          <field name="TEXT">body9</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="V)~=:!#k79nV0L[uRuO#">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id=".,U-LS_gecOhEYW4=2K:">
+              <field name="FIELDNAME">body9</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="mQ[a[nd7-IPLm.%He#)^">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="wW?@-T/B;Uu;#V90k)gf">
+              <value name="CAMERA">
+                <shadow type="objectList" id="@/D!Mw+Ev1_GLG#-Lvka">
+                  <field name="FIELDNAME">body cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="U3L=QoP{8AXb4meq]q`P" x="50" y="390">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="J(ZzdBb(Pt7k_g6vQzaS">
+          <field name="TEXT">bonnet9</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="+t%2dwA3Rxg*~tk6}_W@">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="P85YY/1[f$!(uc}$HQz9">
+              <field name="FIELDNAME">bonnet9</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="gW_-%ktQD_B^h]6^Zo/?">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="NqZx_W4{OAa0qKGD952N">
+              <value name="CAMERA">
+                <shadow type="objectList" id="]jrnJmVZtRAti1-/4ACy">
+                  <field name="FIELDNAME">bonnet cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="rQ7$_[up_,e4{lO:nZp+" x="1830" y="310">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="gCL|K4QOPN)nP78n/Fo-">
+          <field name="TEXT">bld</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="(xk6N?:ser-K?^1?2q$]">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="0TP8h%/$Icu0Q=E}1Fz.">
+              <field name="FIELDNAME">bl.007</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="g0^`=m-8m@kmIK`?dx0I">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopOnce</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="Rt}7m]_GQ:RDaIy+%d8R">
+                  <field name="FIELDNAME">bl.006</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="*fQYt9@6R7Ng3{^U]%S.">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="ziFwCz~-?w/VKmLIh.0Q">
+                      <field name="FIELDNAME">bl.005</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="playAnimationAdv" id="5tndvc{6*WnlpDiAHfc*">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="V75!K?0(%D0l5G0;0d)d">
+                          <field name="FIELDNAME">bl.004</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="playAnimationAdv" id="%`56.R:Xl$|WPC[ebx|:">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                          <field name="REVERSED">FALSE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <shadow type="animationList" id="Lj~N}r^~T{2m[E{3BjsG">
+                              <field name="FIELDNAME">bl.003</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="playAnimationAdv" id="1gG@0qdoR^[+PAXXS.KF">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                              <field name="REVERSED">FALSE</field>
+                              <field name="LOOP">LoopOnce</field>
+                              <value name="VALUE">
+                                <shadow type="animationList" id="0KuV9o~a$]/eVf*@:gu-">
+                                  <field name="FIELDNAME">bl.002</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="playAnimationAdv" id="6f+.)yluo*4J?uKx8idd">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                  <field name="REVERSED">FALSE</field>
+                                  <field name="LOOP">LoopOnce</field>
+                                  <value name="VALUE">
+                                    <shadow type="animationList" id=",uxK`v+,qD2BooF0_jid">
+                                      <field name="FIELDNAME">bl.001</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="playAnimationAdv" id="x9eEt.+OYt?5]0hw${73">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                      <field name="REVERSED">FALSE</field>
+                                      <field name="LOOP">LoopOnce</field>
+                                      <value name="VALUE">
+                                        <shadow type="animationList" id="al2I)bCo$V279ql.I~0B">
+                                          <field name="FIELDNAME">bl</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="playAnimationAdv" id="Y%bavFVbrIY=dIKrEyJ=">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                          <field name="REVERSED">FALSE</field>
+                                          <field name="LOOP">LoopOnce</field>
+                                          <value name="VALUE">
+                                            <shadow type="animationList" id="A;0I%oIFy`:3xk,fGpkT">
+                                              <field name="FIELDNAME">rrghost_door_RL_rrghost_leatherblue_0</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="@XWvn-OHAvmhApl{{!/v" x="970" y="370">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="H$!V.$|[r@eu)P,#W7_s">
+          <field name="TEXT">interior7</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setActiveCamera" id="W^9vSK|)$OKXd_cFerM_">
+          <value name="CAMERA">
+            <shadow type="objectList" id="48wYiS@D$I1S;8$@cm5k">
+              <field name="FIELDNAME">Camera</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="jJ7LvE04U/YbW{nq@0g[" x="-510" y="550">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="Nq@A6PM_d{f`]ruSK}+X">
+          <field name="TEXT">body10</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="KY{?;sXwOi_BFh5I-v;|">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="%+C.`Tvdq$nlt)Ckc-q-">
+              <field name="FIELDNAME">body10</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="X,!/YO.fT=LBy-r`u%4Z">
+              <field name="FIELDNAME">body</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="=lTdgobL~?^[p?7iE?u|">
+              <value name="CAMERA">
+                <shadow type="objectList" id="`!FTBlpI@[:XT%T-!K-P">
+                  <field name="FIELDNAME">body cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="C4,a%.r,uEaVA(}q4dob" x="110" y="530">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="7FS|C@|tj*r?}Kf1v7j2">
+          <field name="TEXT">bonnet10</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="jebpbl!mdLyC7G0fzM@+">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="Y#IJ$QklhfX{[xdU)WDU">
+              <field name="FIELDNAME">bonnet10</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="*E%pNAOhUCja5.3w[#q`">
+              <field name="FIELDNAME">bonnet</field>
+            </block>
+          </value>
+          <next>
+            <block type="setActiveCamera" id="Gih:c|+:TJa4*o(w#51[">
+              <value name="CAMERA">
+                <shadow type="objectList" id="RVa..VFSVwPx~`7lEKk(">
+                  <field name="FIELDNAME">bonnet cam</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="jO*@V36@K+8GfedEV|k@" x="710" y="550">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="70{yQckMP8t]6n#O5Bf9">
+          <field name="TEXT">interior8</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="99L_pJL^SD~`uJ3jK}?w">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="%Fd=uw?X,Z)0+ufJo!c=">
+              <field name="FIELDNAME">int8</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="AZJn`P/ejNs}v5lHEi:o">
+              <field name="FIELDNAME">interior</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="[:MF.iIrpSm1Vl:]M+/e" x="110" y="670">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="|veTfP4Ppu#P!y/j*UaB">
+          <field name="TEXT">bonnet7</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setActiveCamera" id="!ffc#5}=:]8{~dnqW6te">
+          <value name="CAMERA">
+            <shadow type="objectList" id="PyD7gdg$)~;R7QA4JoT3">
+              <field name="FIELDNAME">bonnet cam</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="assignMaterial" id="ue9@}huiVs,}x=Pbn:JL">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+              <value name="VALUE2">
+                <shadow type="materialList" id="-e7rh.gTAVt*h)kCiLI$">
+                  <field name="FIELDNAME">bonnet7</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="cQBN|/ycP^93:QSwa#G5">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="groupList" id="Ho38IZDAZE;cK7uy3=GD">
+                  <field name="FIELDNAME">bonnet</field>
+                </block>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="960.302463665977" viewport-y="-13.258153971284628" viewport-w="316.4" viewport-h="311" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

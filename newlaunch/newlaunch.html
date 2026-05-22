@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New launch</title>
+  <style>
+    body{
+        margin:0;
+      background-color: black;
+    }
+    .page{
+      width:100vw;
+      height: 100vh;
+      overflow:hidden;
+    
+    }
+    .page video{
+        width:100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .name{
+  width:5vw;
+  height: 5vh;
+  position:fixed;
+  left:2%;
+  top:2%;
+
+
+       z-index:11;
+}
+.menu div a{
+  color:aliceblue;
+  text-decoration: none;
+}
+ 
+.name img{
+  width:100%;
+  height: 100%;
+  object-fit: contain;
+}
+.navbar{
+    width:5vw;
+  height: 5vh;
+  position:fixed;
+  right:2%;
+  top:2%;
+
+
+       z-index:12;
+}
+.navbar img{
+  width:100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nav{
+  width:30%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+    position:fixed;
+  right:30%;
+  top:1.3%;
+       z-index:11;
+       font-size: 20px;
+       font-weight: 200;
+       column-gap: 30px;
+padding-right:0;
+justify-content: center;
+align-items:  center;
+
+   
+}
+  </style>
+</head>
+<body>
+  <div class="name"><a href="../index.html">
+<img src="../rolls-royce-svgrepo-com-2.svg"></a>
+</div>
+<nav class="navbar">
+
+<img src="../menu-alt-2-svgrepo-com-2.svg">
+</nav>
+<div class="menu"></div>
+  <div class="page">
+    <video src="PF0008800.mp4" autoplay muted loop></video>
+  </div>
+  <script>
+let menu=false;
+
+document.querySelector(".navbar img").addEventListener("click",()=>{
+  if (!menu){
+  document.querySelector(".menu").innerHTML=`
+  <div class="nav">
+  <div class="home"><a href="../index.html">Home</a></div>
+  <div class="workshop"><a href="../experience/experience.html">Workshop</a></div>
+  <div class="perform"><a href="newlaunch.html">NEW Launch </a></div>
+
+  <div class="about"><a href="../index.html#aboutsection">about</a></div>
+  </div>
+`
+  
+
+gsap.from(".nav div",{
+  y:-90,
+  stagger:0.2,
+  ease:"power3.out",
+  duration:1,
+ 
+
+}) 
+menu=true;}
+else{
+
+  gsap.to(".nav div",{
+  y:-90,
+  stagger:0.2,
+  ease:"power3.out",
+  duration:1,
+  onComplete:()=>{
+ document.querySelector(".menu").innerHTML=``
+  }
+})
+menu=false;
+}
+})
+
+  </script>
+</body>
+</html>

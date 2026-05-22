@@ -1,0 +1,34 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-113.76289499099312" scrolly="81.2480453047047" scale="0.9061686044066274">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="AYMRt)~=UpIzYh(pU0}N" inline="false" x="150" y="110">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="8h.=fU)+u0%GR01_-Yw%">
+          <field name="FIELDNAME">rrghost_body</field>
+        </shadow>
+        <block type="groupList" id="plwn|9u*cvD_fQ*rk)/:">
+          <field name="FIELDNAME">door</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="R0qx#P2-Q48+mzsfoAjB">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">AUTO</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="u69%$xVeh+:yW]YwA/0}">
+              <field name="FIELDNAME">rrghost_door_RR_rrghost_wood_0</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="960.302463665977" viewport-y="-13.258153971284628" viewport-w="316.4" viewport-h="311" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

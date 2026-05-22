@@ -1,0 +1,62 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="18.454486530652503" scrolly="200.30375082344966" scale="0.9061686044066274">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="?ZU!aVfcrmm+(Ukazl(z" inline="false" x="190" y="-70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="2HwH@z)YwQx[}sY.Z,rW">
+          <field name="FIELDNAME">bonnet</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="PlzpBypko7ieE*[(*^6:">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="{0^HyY1`z{P{]a-f[b[5">
+              <field name="FIELDNAME">bonnet</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="pauseAnimation" id="QD/5?W[6ZjyNwtXLV|1V">
+              <value name="VALUE">
+                <shadow type="animationList" id="z]-Ni~r0|7JgRhSBJU29">
+                  <field name="FIELDNAME">bonnet</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="yjmEnV!mr|I$]67:;g[#" inline="false" x="250" y="110">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="jo]xX1H{hD4qip`[R$mh">
+          <field name="FIELDNAME">rrghost_body</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="resumeAnimation" id="pLKQFDY|UF=:uQD01Z$N">
+          <value name="VALUE">
+            <shadow type="animationList" id="v_YXJ:67kK-}^lDD3T]`">
+              <field name="FIELDNAME">bonnet</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="960.302463665977" viewport-y="-13.258153971284628" viewport-w="316.4" viewport-h="311" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
